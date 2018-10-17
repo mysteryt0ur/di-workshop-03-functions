@@ -98,6 +98,8 @@ Replace `rect(5, 30, 70, 70)` with `square(5, 30, 70)` and run your code.
 
 **What’s going on here? What might `x, y, size` mean?**
 
+//Absolutely nothing changes - this is because the shape is now a square instead of a rectangle and doesn't need as many co-ordingates in order to create the shape?
+
 **Add a comment above your function saying what the inputs and outputs of your
 function are (name, description, data type) and what your functions does.** You
 should add a comment like this to every function you write.
