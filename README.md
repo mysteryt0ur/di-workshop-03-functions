@@ -228,9 +228,9 @@ function setup() {
 ```
 
 ### Expected Output
-
+//9
 ### Actual Output
-
+//9
 ### Different? Why?
 
 ## Program 2
@@ -243,9 +243,9 @@ function setup() {
 ```
 
 ### Expected Output
-
+//12
 ### Actual Output
-
+//12
 ### Different? Why?
 
 ## Program 3
@@ -261,9 +261,9 @@ function setup() {
 ```
 
 ### Expected Output
-
+//3
 ### Actual Output
-
+//3
 ### Different? Why?
 
 ## Program 4
@@ -279,10 +279,11 @@ function setup() {
 ```
 
 ### Expected Output
-
+//3, 7
 ### Actual Output
-
+//10
 ### Different? Why?
+//This is because the two integers have been added together, however I didn't think this was going to be the case although I do understand now why this outcome has happened (because the two numbers are in a boop, which returns the addition of the two numbers.)
 
 ## Program 5
 
@@ -297,12 +298,14 @@ function setup() {
 ```
 
 ### Expected Output
-
+//'Boop is Good'
 ### Actual Output
-
+//Boop is Good
 ### Different? Why?
+No commas around the text as this is a string.
 
 **What does return mean in JavaScript?**
+//Return is an 'output.'
 
 # Part 5
 
@@ -335,8 +338,12 @@ function draw() {
 this difficult, sketch it out on a piece of paper and trace through the code
 step by step, as if you were the computer.
 
+//I haven't seen function setup - size before, where is CreateCanvas?
+
 **Run the code and see what happens. Was your prediction accurate? If not,
 why?**
+
+Nothing works? Changed 'size' to 'createCanvas'
 
 Replace the section that causes the ball to bounce with this:
 
